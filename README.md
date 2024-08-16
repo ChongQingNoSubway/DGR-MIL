@@ -3,7 +3,7 @@
 Paper link (preprint): [https://arxiv.org/abs/2407.03575]
 
 ## News :fire:
-- **June 17, 2024:** We will release the extracted features later !
+- **June 17, 2024:** We will release the extracted features later and gradually improve this code repository !
 - **June 17, 2024:** Congratulations ! Paper has been accepted by ECCV 2024 !
 
 <img align="right" width="50%" height="100%" src="https://github.com/ChongQingNoSubway/DGR-MIL/blob/main/img/network.jpg">
@@ -14,29 +14,13 @@ Paper link (preprint): [https://arxiv.org/abs/2407.03575]
 <img src="https://github.com/ChongQingNoSubway/DGR-MIL/blob/main/img/res.png">
 
 
-## Key Code
-```
+## Enviroment Installation
+
+## Download Extracted Feature 
 
 
-```
-
-
-## How to run
-
-First download the pre-trained imagenet for SwinUnet according to ```https://github.com/HuCaoFighting/Swin-Unet```.
-
-In ``` ./src/train_synapse```:
-
-**Train**
-```python train.py --dataset Synapse --cfg configs/swin_tiny_patch4_window7_224_lite.yaml --max_epochs 150 --output_dir 11_1  --gpu_id 0 --img_size 224 --base_lr 0.05 --batch_size 32 --lambda_x 0.010 ```
-
-**test**
-```python test.py --dataset Synapse --cfg configs/swin_tiny_patch4_window7_224_lite.yaml --is_saveni --output_dir 11_1 --max_epoch 150 --base_lr 0.05 --img_size 224 --batch_size 24```
-
-**Check weights.**  https://drive.google.com/drive/folders/1V9y3fOgKExOFS8namk46UwJqH3yFoPu_?usp=sharing
-
-**Train Unet**
-```python train_unetKD.py   --save_path kd_unet```
+## Run the Code
+ 
 
 
 ## Thanks for the code provided by:
