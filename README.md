@@ -3,7 +3,7 @@
 Paper link (preprint): [https://arxiv.org/abs/2407.03575]
 
 ## News :fire:
-- **June 17, 2024:** We will release the extracted features later and gradually improve this code repository !
+- **Aug 16, 2024:** We will release the extracted features later and gradually improve this code repository !
 - **June 17, 2024:** Congratulations ! Paper has been accepted by ECCV 2024 !
 
 <img align="right" width="50%" height="100%" src="https://github.com/ChongQingNoSubway/DGR-MIL/blob/main/img/network.jpg">
