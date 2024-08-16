@@ -24,10 +24,10 @@ Paper link (preprint): [https://arxiv.org/abs/2407.03575]
 
 
 ## Thanks for the code provided by:
-- SwinUnet: https://github.com/HuCaoFighting/Swin-Unet
-- HiFormer: https://github.com/amirhossein-kz/hiformer
-- CASCADE: https://github.com/SLDGroup/CASCADE
-- UCTransNet: https://github.com/mcgregorwwww/uctransnet
+- DTFD-MIL:  https://github.com/hrzhang1123/DTFD-MIL
+- TransMIL: https://github.com/szc19990412/TransMIL
+- DSMIL:  https://github.com/binli123/dsmil-wsi
+- ILRA-MIL: https://github.com/jinxixiang/low_rank_wsi
 
 ## Citation
 If you find our work is useful in your research, please consider raising a star  :star:  and citing:
