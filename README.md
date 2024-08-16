@@ -28,4 +28,15 @@ Paper link (preprint): [https://arxiv.org/abs/2407.03575]
 - HiFormer: https://github.com/amirhossein-kz/hiformer
 - CASCADE: https://github.com/SLDGroup/CASCADE
 - UCTransNet: https://github.com/mcgregorwwww/uctransnet
-- ...
+
+## Citation
+If you find our work is useful in your research, please consider raising a star  :star:  and citing:
+
+```
+@article{zhu2024dgr,
+  title={DGR-MIL: Exploring Diverse Global Representation in Multiple Instance Learning for Whole Slide Image Classification},
+  author={Zhu, Wenhui and Chen, Xiwen and Qiu, Peijie and Sotiras, Aristeidis and Razi, Abolfazl and Wang, Yalin},
+  journal={arXiv preprint arXiv:2407.03575},
+  year={2024}
+}
+```
