@@ -91,7 +91,7 @@ class optimizer_triple(nn.Module):
         
         return x
 
-class LAMIL(nn.Module):
+class DGRMIL(nn.Module):
     def __init__(self, in_features, num_classes=2, L=512, D=128, n_lesion = 11, attn_mode="gated", dropout_node=0.0,dropout_patch=0.0,initialize=False):
         super().__init__()
         self.L = L
@@ -210,7 +210,7 @@ def concat_all_gather(tensor):
     return output     
 
 if __name__ == "__main__":
-    milnet = LAMIL(512, attn_mode='linear', dropout_node=0.1)
+    milnet = DGRMIL(512, attn_mode='linear', dropout_node=0.1)
     print(milnet)
 
     logits, A, _, postive, negative,lesion= milnet(torch.randn(1,100, 512),bag_mode='lesion')
