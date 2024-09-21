@@ -18,12 +18,19 @@ Paper link (preprint): [https://arxiv.org/abs/2407.03575]
 
 ## Download Extracted Feature 
 C16 - resnet 50 : https://github.com/hrzhang1123/DTFD-MIL
+
 C16 - resnet 18 : https://drive.google.com/drive/folders/1WxVhuLe1d062UbiwPy-a0AReRD-GftIz?usp=sharing
+
 C16 - VIT:  https://drive.google.com/file/d/1IjPX0MJQLuHW_hdJaRFBud7R5CBNARm8/view?usp=sharing
 
+
+
 TCGA - resnet 50:  https://github.com/hrzhang1123/DTFD-MIL
+
 TCGA - resnet 18:  https://drive.google.com/drive/folders/1NVXJKaFC39UJ_NexCNZm7520YCi8miMf?usp=sharing
+
 TCGA - ViT: https://drive.google.com/drive/folders/1Ls-of2mQZKHCp6m3RMp32XYkVQ8WAIrv?usp=drive_link
+
 
 ## Run the Code
  
