@@ -17,4 +17,4 @@ module load mamba/latest
 # Using python, so source activate an appropriate environment
 source activate wenA100
 
-python 	train-c16.py --save_dir='our_c16_vit_512/20' --L=512
+python 	train_DGRMIL.py --save_dir='our_c16_vit_512/20' --L=512
