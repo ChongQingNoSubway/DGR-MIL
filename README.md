@@ -35,7 +35,6 @@ TCGA - ViT: https://drive.google.com/drive/folders/1Ls-of2mQZKHCp6m3RMp32XYkVQ8W
 ## Run the Code
  
 
-
 ## Thanks for the code provided by:
 - DTFD-MIL:  https://github.com/hrzhang1123/DTFD-MIL
 - TransMIL: https://github.com/szc19990412/TransMIL
